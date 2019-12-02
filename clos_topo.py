@@ -20,8 +20,7 @@ class ClosTopo(Topo):
         # Initialize topology and default options
         Topo.__init__(self, **opts)
 
-        "Set up Core and Aggregate level, Connection Core - Aggregation level"
-        # WRITE YOUR CODE HERE!
+        
         c1, c2 = self.addSwitch('c1'), self.addSwitch('c2')
         a3, a4, a5, a6 = self.addSwitch('a3'), self.addSwitch(
             'a4'), self.addSwitch('a5'), self.addSwitch('a6')
